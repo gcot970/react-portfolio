@@ -3,8 +3,9 @@ import React from 'react';
 function About() {
     return (
         <div>
-            <h2>About Me</h2>
-            <div className="about-content">
+            <h2 className='text-center'>About Me</h2>
+            <div className="about-content m-5">
+                <img className = "rounded-circle float-left" src="https://avatars.githubusercontent.com/u/127463356" alt="My avatar!" />
                 <p>Hi there! My name is Gage Cotton, and I'm a passionate junior web developer with a knack for creating engaging online experiences. With a strong foundation in computer troubleshooting and running SMB systems spanning five years, I bring a wealth of technical knowledge to my development journey.</p>
                 <p>In the realm of web development, I've honed my skills in various technologies:</p>
                 <ul>
